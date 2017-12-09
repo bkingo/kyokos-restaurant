@@ -1,0 +1,121 @@
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+.cta {
+    box-shadow: 0 0 0 2px #fff;
+    color: #fff;
+    display: inline-block;
+    padding: .75rem 2rem;
+    text-transform: uppercase;
+}
+
+.box {
+    box-shadow: 0 0 0 1px rgba(0,0,0, 0.5);
+    padding: .5rem;
+    text-align: center;
+}
+
+
+
+
+
+
+/* base ============================================================*/
+
+body {
+    font: 16px/1.5 sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+/* layout ============================================================*/
+
+
+/* module ============================================================*/
+.header {
+    box-sizing: border-box;
+    color: #fff;
+    height: 56px;
+    overflow: hidden;
+
+    position: absolute;
+    width: 100%
+}
+    .header__bar {
+        background: rgba(0,0,0, 0.35);
+        padding: 1em 1em .5em 1em;
+        position: relative;
+    }
+
+    .header__logo {
+        font-family: 'Merienda', cursive;
+        font-size: 1.25rem;
+        display: inline-block;
+        margin: 0;
+        text-transform: uppercase;
+    }
+
+    .nav {
+        position: absolute;
+        top: 100%;
+        width: 100%;
+
+    }
+
+        .nav__trigger {
+            display: inline-block;
+            position: absolute;
+            font-size: 2rem;
+            right: calc(0% + 1rem);
+            top: 0.4rem;
+        }
+
+        .nav__link {
+            display: block;
+        }
+
+.banner {
+    /*background: url('../img/bg/umami-utrecht.jpg') no-repeat;*/
+    /*background-size: cover;*/
+    background: rgba(0,0,0, 0.5);
+    padding: 8em 0 2em 0;
+    text-align: center;
+
+
+}
+
+    .banner__headline {
+        color: #fff;
+        font-size: 3.2em;
+        font-family: 'Merienda', cursive;
+        text-transform: uppercase;
+
+    }
+    .banner__tagline {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 1.5rem;
+        letter-spacing: 6px;
+        text-transform: uppercase;
+    }
+
+
+
+
+
+
+
+/* state ============================================================*/
+
+
+/* theme ============================================================*/
