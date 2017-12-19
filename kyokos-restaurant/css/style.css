@@ -1,0 +1,221 @@
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+.cta {
+    box-shadow: 0 0 0 2px #fff;
+    color: #fff;
+    display: inline-block;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    padding: .75rem 2rem;
+    text-transform: uppercase;
+    word-spacing: 1px;
+}
+
+.box {
+    box-shadow: 0 0 0 1px rgba(0,0,0, 0.5);
+    padding: .5rem;
+    text-align: center;
+}
+
+.intro {
+    /* background: #F6F4F1; */
+}
+
+.about {
+    background: #fff;
+    /* box-shadow: 1px 2px 8px 1px rgba(0,0,0, .35); */
+    box-sizing: border-box;
+    padding: 2.5rem 1.2rem;
+    /* margin: auto; */
+    /* width: 93%; */
+}
+    .about__header {
+        font-family: 'Merienda', cursive;
+        font-size: 1.5rem;
+        margin: 0;
+        text-align: center;
+    }
+
+    .about__description {
+        color: #B5B5B5;
+        font-family: 'Nunito Sans', sans-serif;
+        margin-top: 0;
+    }
+
+
+.block {
+    margin: auto;
+}
+
+.block--featured {
+    padding: 1rem 0;
+    width: 92%;
+
+}
+
+.featured {
+    background: #FCFAF7;
+}
+
+.item {
+    background: #fff;
+    text-align: center;
+}
+    .item:not(:last-child) {
+        margin-bottom: 1.5rem;
+    }
+
+    .item__info {
+        background: #fff;
+        padding-bottom: .5rem;
+    }
+    .item__name {
+        font-family: 'Nunito Sans', sans-serif;
+        letter-spacing: 1px;
+        margin-top: .5rem;
+        margin-bottom: 0;
+        text-transform: uppercase;
+    }
+    .item__description {
+        color: #B5B5B5;
+        font-family: 'Nunito Sans', sans-serif;
+        margin-top: 0;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* base ============================================================*/
+
+body {
+    font: 16px/1.5 sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+/* layout ============================================================*/
+
+
+/* module ============================================================*/
+.header {
+    box-sizing: border-box;
+    color: #fff;
+    height: 56px;
+    overflow: hidden;
+
+    position: absolute;
+    width: 100%
+}
+    .header__bar {
+        background: rgba(0,0,0, 0.37);
+        padding: 1rem .7rem .5rem;
+        position: relative;
+    }
+
+    .header__logo {
+        font-family: 'Merienda', cursive;
+        font-size: 1.25rem;
+        display: inline-block;
+        margin: 0;
+        text-transform: uppercase;
+    }
+
+    .nav {
+        position: absolute;
+        top: 100%;
+        width: 100%;
+
+    }
+
+        .nav__trigger {
+            display: inline-block;
+            position: absolute;
+            font-size: 2rem;
+            right: calc(0% + 1rem);
+            top: 0.4rem;
+        }
+
+        .nav__link {
+            display: block;
+        }
+
+.banner {
+    text-align: center;
+}
+    .banner--primary {
+        background: rgba(0,0,0, 0.35) url('../img/bg/sushimeal.jpg') no-repeat;
+        background-position: 55% 62%;
+        background-size: 243%;
+        padding: 8em 0 4em 0;
+    }
+
+    .banner--secondary {
+        background: rgba(0,0,0, 0.35) url('../img/bg/sushimeal.jpg') no-repeat;
+        padding: 1rem;
+        background-size: 312%;
+        background-attachment: fixed;
+        background-position: 0% 34%;
+    }
+
+    .banner__headline {
+        color: #fff;
+        font-family: 'Merienda', cursive;
+        text-transform: uppercase;
+    }
+        .banner__headline--primary {
+            font-size: 3.2em;
+        }
+
+    .banner__tagline {
+        color: #fff;
+        font-family: 'Nunito Sans', sans-serif;
+        letter-spacing: 6px;
+        text-transform: uppercase;
+    }
+        .banner__tagline--primary {
+            font-size: 1.5rem;
+        }
+        .banner__tagline--secondary {
+            font-size: 1.5rem;
+        }
+
+/* .banner__secondary {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+} */
+
+
+
+
+
+
+
+
+
+/* state ============================================================*/
+
+
+/* theme ============================================================*/
