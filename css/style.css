@@ -218,7 +218,8 @@ img {
         background-size: 312%;
         background-attachment: fixed;
         padding: 1rem; */
-        background: url('../img/bg/sushimeal.jpg') no-repeat fixed;
+        background: url('../img/bg/sushimeal.jpg') no-repeat;
+        background-attachment: fixed;
         background-position: 0% 34%;
         background-size: 312%;
         padding: 1rem;
