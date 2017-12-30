@@ -212,7 +212,8 @@ img {
     }
 
     .banner--secondary {
-        background: url('../img/bg/sushimeal.jpg') no-repeat;
+        background-image: url('../img/bg/sushimeal.jpg');
+        background-repeat: no-repeat;
         background-position: 0% 34%;
         background-size: 312%;
         background-attachment: fixed;
