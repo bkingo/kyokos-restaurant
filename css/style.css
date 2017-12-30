@@ -213,10 +213,11 @@ img {
 
     .banner--secondary {
         background: url('../img/bg/sushimeal.jpg') no-repeat;
-        padding: 1rem;
+        background-position: 0% 34%;
         background-size: 312%;
         background-attachment: fixed;
-        background-position: 0% 34%;
+        padding: 1rem;
+
     }
 
     .banner__headline {
