@@ -219,13 +219,26 @@ img {
         background-attachment: fixed;
         padding: 1rem; */
         background: url('../img/bg/sushimeal.jpg') no-repeat;
-        background-attachment: fixed;
+        background-attachment: fixed !important; 
         /* background-position: 0% 34%; */
         /* background-size: 312%; */
-        /* background-size: cover; */
+        background-size: cover;
         padding: 1rem;
+        position: relative;
 
     }
+    /* .banner--secondary__bg {
+        display: block;
+        background: url('../img/bg/sushimeal.jpg') no-repeat fixed;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+
+    } */
 
     .banner__headline {
         color: #fff;
