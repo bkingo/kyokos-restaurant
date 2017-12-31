@@ -218,13 +218,14 @@ img {
         background-size: 312%;
         background-attachment: fixed;
         padding: 1rem; */
-        background: url('../img/bg/sushimeal.jpg') no-repeat !important;
-        background-attachment: fixed !important;
+        background: url('../img/bg/sushimeal.jpg') no-repeat;
+        background-attachment: fixed;
         /* background-position: 0% 34%; */
         /* background-size: 312%; */
-        background-size: cover !important;
+        -webkit-background-size: cover;
+        background-size: cover;
         padding: 1rem;
-        /* position: relative; */
+        position: relative;
 
     }
     /* .banner--secondary__bg {
