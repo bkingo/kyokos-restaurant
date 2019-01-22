@@ -1,3 +1,11 @@
+/* colors 
+    - default body text  #3d373f
+	- grey text          #9B9E95
+	- red text           #D59276
+	-      
+	        
+*/
+
 /* base ============================================================*/
 
     html {
@@ -274,6 +282,17 @@
         font-family: 'Merienda', cursive;
     }
 
+    /* individual sections for entrees, appeitzers, beverages, desserts */
+    .menu__section {
+
+    }
+
+    [data-menu__section='appetizer'],
+    [data-menu__section='beverages'],
+    [data-menu__section='desserts'] {
+        display: none;
+    }
+
     .tablist {
         margin-bottom: 2rem;
         text-align: center;
@@ -281,6 +300,7 @@
 
     .tablist__tab {
         display: inline-block;
+        color: #9B9E95;
         cursor: pointer;
         /* float: left; */
         font-family: 'Merienda', cursive;
@@ -288,6 +308,10 @@
         /* text-align: center; */
         /* width: calc(50% - 3rem); */
         /* margin: 0 1rem 1rem; */
+    }
+
+    .tablist__tab--selected {
+        color: #3d373f;
     }
 
     .filter {
@@ -410,6 +434,7 @@
 .wrapper {
     /* position: relative;
     z-index: 10; */
+    /* max-width: 400px; */
 }
 
 /* .wrapper,
