@@ -1,7 +1,7 @@
 /* colors 
-    - default body text  #3d373f
-	- grey text          #9B9E95
-	- red text           #D59276
+    - default body text  #3d373f rgb(61, 55, 63)
+	- grey text          #9B9E95 rgb(155, 158, 149)
+	- red text           #D59276 rgb(213, 146, 118)
 	-      
 	        
 */
@@ -37,6 +37,12 @@
 
 
 /* general ============================================================*/
+
+    .wrapper {
+        /* position: relative;
+        z-index: 10; */
+        max-width: 400px;
+    }
 
     .clearfix::after {
         content: "";
@@ -376,6 +382,10 @@
             z-index: 1000;
             text-transform: uppercase;
         }
+        
+        .item__name--sm {
+            font-size: 1rem;
+        }
 
             .item__name--featured {
                 font-size: 1.2rem;
@@ -431,11 +441,7 @@
 
 } */
 
-.wrapper {
-    /* position: relative;
-    z-index: 10; */
-    /* max-width: 400px; */
-}
+
 
 /* .wrapper,
 .bg,
@@ -452,54 +458,6 @@
     padding: .5rem;
     text-align: center;
 } */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* layout ============================================================*/
-
-
-/* module ============================================================*/
-
-
-
-
-
-
-
-
-
-
-
-.drinks {
-    padding: 0 1rem 0;
-}
-
-
-
-
-
 
 
 
