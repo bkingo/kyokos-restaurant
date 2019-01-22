@@ -45,11 +45,21 @@
     }
 
         /* temp */
-        .header {
+        .header, .bg {
             max-width: 400px;
         }
         .nav--mobile {
             display: none;
+        }
+        .bg {
+            background: url('../img/bg/sushimeal.jpg') no-repeat;
+            background-size: 321%;
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            z-index: -10;
         }
 
     .clearfix::after {
@@ -175,13 +185,13 @@
     }
 
     .banner--secondary {
-        background-image: url('../img/bg/sushimeal.jpg');
+        /* background-image: url('../img/bg/sushimeal.jpg');
         background-repeat: no-repeat;
         background-position: 0% 34%;
         /* background-size: 312%; */
         background-attachment: fixed;
         padding: 1rem;
-        background-size: cover;
+        background-size: cover; */
     }    
 
 
@@ -437,18 +447,7 @@
 
 /* *** ============================================================*/
 
-/* .bg {
-    background: url('../img/bg/sushimeal.jpg') no-repeat;
-    background-size: 321%;
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
 
-    z-index: -10;
-
-} */
 
 
 
