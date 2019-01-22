@@ -71,6 +71,7 @@
         padding: 1rem .7rem .5rem;
         position: fixed;
         width: 100%
+        z-index: 1000;
     }
 
         .header__logo {
@@ -387,7 +388,7 @@
             margin: .5rem 0;
             padding-right: .3rem;
             position: relative;
-            z-index: 1000;
+            z-index: 10;
             text-transform: uppercase;
         }
         
