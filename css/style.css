@@ -191,7 +191,7 @@
             }
         
             .block--intro__description {
-                color: #B5B5B5;
+                color: #9b9e95;
                 font-family: 'Nunito Sans', sans-serif;
                 /* margin-top: 0; */
             }
@@ -227,7 +227,7 @@
             }
 
             .block--featured__description {
-                color: #B5B5B5;
+                color: #9b9e95;
                 font-size: .9rem;
                 margin: 0 0 1rem;
             }
@@ -243,6 +243,36 @@
 
 
 /* menu ============================================================*/
+
+    .menu {
+        background: #fff;
+        padding: 1.8rem 0rem;
+    }
+
+    .menu__header {
+        font-family: 'Merienda', cursive;
+        font-size: 1.5rem;
+        text-align: center;
+        margin-bottom: 2.5rem;
+    }
+
+    .menu__title {
+        margin: 0;
+    }
+
+    .menu__title::after {
+        content: '';
+        display: block;
+        height: 1px;
+        width: 46px;
+        border-bottom: 2px solid #d59276;
+        margin: 1px auto auto;
+    }
+
+
+    .menu__selector {
+        font-family: 'Merienda', cursive;
+    }
 
     .tablist {
         margin-bottom: 2rem;
@@ -279,35 +309,56 @@
             margin: 0 1rem 1rem;
         }
 
-/* .item {
-        background: #fff;
-        box-shadow: 8px 9px 13px -6px rgba(0,0,0, .25);
-    }
-        .item:not(:last-child) {
-            margin-bottom: 1.5rem;
-        } */
+        .item {
+                /* background: #fff; */
+                /* box-shadow: 8px 9px 13px -6px rgba(0,0,0, .25); */
+                padding: 0 1rem;
+            }
+                /* .item:not(:last-child) {
+                    margin-bottom: 1.5rem;
+                } */
 
         .item__info {
             background: #fff;
             padding: .3rem 1rem 1.4rem;
         }
+
+        .item__heading {
+
+        }
+
+        .item__heading {
+            position: relative;
+        }
+
+        /* dotted line */
+        .item__heading::after {
+            content: '';
+            display: block;
+            border-bottom: 3px dotted #3d373f;
+            position: absolute;
+            top: 50%;
+            width: 100%;
+        }
+        
         .item__name {
+            background: #fff;
+            display: inline-block;
             font-family: 'Nunito Sans', sans-serif;
             letter-spacing: 2px;
             margin: .5rem 0;
+            padding-right: .3rem;
+            position: relative;
+            z-index: 1000;
             text-transform: uppercase;
         }
 
             .item__name--featured {
                 font-size: 1.2rem;
-            }
-
-            .item__name--menu {
-
-            }
+            }    
 
         .item__description {
-            color: #B5B5B5;
+            color: #9b9e95;
             font-family: 'Nunito Sans', sans-serif;
             font-size: .9rem;
             margin: 0 0 1rem;
@@ -315,11 +366,20 @@
         }
 
         .item__price {
+            background: #fff;
             color: #d59276;
-            font-family: 'Nunito Sans', sans-serif;
+            font-size: 1.5rem;
+            display: inline-block;
+            /* font-family: 'Nunito Sans', sans-serif; */
+            font-family: 'Merienda', cursive;
             font-weight: 900;
             letter-spacing: 1px;
+            padding-left: .4rem;
+            position: absolute;
+            right: 0;
+            top: .2rem;
             text-transform: uppercase;
+            z-index: 5;
         }
 
 
@@ -402,35 +462,7 @@
 
 
 
-.menu {
-    background: #fff;
-    padding: 1.8rem 0;
-}
 
-.menu__banner {
-    font-family: 'Merienda', cursive;
-    font-size: 1.5rem;
-    text-align: center;
-    margin-bottom: 2.5rem;
-}
-
-.menu__title {
-    margin: 0;
-}
-
-.menu__title::after {
-    content: '';
-    display: block;
-    height: 1px;
-    width: 46px;
-    border-bottom: 2px solid #d59276;
-    margin: 1px auto auto;
-}
-
-
-.menu__selector {
-    font-family: 'Merienda', cursive;
-}
 
 
 
