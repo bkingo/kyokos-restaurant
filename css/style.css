@@ -2,8 +2,7 @@
     - default body text  #3d373f rgb(61, 55, 63)
 	- grey text          #9B9E95 rgb(155, 158, 149)
 	- red text           #D59276 rgb(213, 146, 118)
-	-      
-	        
+    - yellowish tint     #D9C8A2 rgb(217, 200, 162)
 */
 
 /* base ============================================================*/
@@ -298,7 +297,8 @@
         display: block;
         height: 1px;
         width: 46px;
-        border-bottom: 2px solid #d59276;
+        /* border-bottom: 2px solid #d59276; */
+        border-bottom: 2px solid #d9c8a2;
         margin: 1px auto auto;
     }
 
@@ -455,26 +455,6 @@
 
 
 /* *** ============================================================*/
-
-
-
-
-
-/* .wrapper,
-.bg,
-.header {
-    max-width: 400px;
-} */
-
-
-
-
-
-/* .box {
-    box-shadow: 0 0 0 1px rgba(0,0,0, 0.5);
-    padding: .5rem;
-    text-align: center;
-} */
 
 
 
