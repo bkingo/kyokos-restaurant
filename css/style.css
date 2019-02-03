@@ -87,6 +87,7 @@
     }
 
         .header__logo {
+            color: #fff;
             font-family: 'Merienda', cursive;
             font-size: 1.25rem;
             display: inline-block;
@@ -455,7 +456,6 @@
 /* media queries ============================================================*/
 
 .block--reservation {
-    background: 0123456789abcdef
     /* box-shadow: inset 0 0 0 3px #d9c8a2; */
     border: 3px solid #d9c8a2;
     /* box-sizing: border-box; */
@@ -473,22 +473,20 @@
         margin: 0;
     }
 
-    .block--reservation__heading::after {
+    /* .block--reservation__heading::after {
             content: '';
             display: block;
             height: 1px;
-            /* text-align: center; */
-            /* margin-top: -3px; */
+            margin-top: -3px;
             margin-left: 14px;
             width: 80px;
-            /* border-bottom: 2px solid #d59276; */
             border-bottom: 1px solid #9b9e95;
-            /* margin: 1px auto auto; */
-        }
+    } */
 
     .block--reservation__description {
         font-weight: 700;
         margin: 8px 0 0;
+        margin-top: 0;
 
     }
 
@@ -519,7 +517,7 @@
 
 .content {
     background: #fff;
-    padding: 1rem .5rem;
+    padding: 1rem 1rem;
 }
 
 .content__heading {
